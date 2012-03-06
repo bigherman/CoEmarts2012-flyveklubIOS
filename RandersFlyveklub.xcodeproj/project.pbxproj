@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4845CDB1506721200B690ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4845CDA1506721200B690ED /* UIKit.framework */; };
+		E4845CDD1506721200B690ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4845CDC1506721200B690ED /* Foundation.framework */; };
+		E4845CDF1506721200B690ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4845CDE1506721200B690ED /* CoreGraphics.framework */; };
+		E4845CE51506721200B690ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4845CE31506721200B690ED /* InfoPlist.strings */; };
+		E4845CE71506721200B690ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4845CE61506721200B690ED /* main.m */; };
+		E4845CEB1506721200B690ED /* rfkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4845CEA1506721200B690ED /* rfkAppDelegate.m */; };
+		E4845CEE1506721200B690ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4845CEC1506721200B690ED /* MainStoryboard.storyboard */; };
+		E4845CF11506721200B690ED /* rfkMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4845CF01506721200B690ED /* rfkMasterViewController.m */; };
+		E4845CF41506721200B690ED /* rfkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4845CF31506721200B690ED /* rfkDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E4845CD61506721200B690ED /* RandersFlyveklub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandersFlyveklub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4845CDA1506721200B690ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4845CDC1506721200B690ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4845CDE1506721200B690ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4845CE21506721200B690ED /* RandersFlyveklub-Info.plist */ = {isa = PBXFileReference; path = "RandersFlyveklub-Info.plist"; sourceTree = "<group>"; };
+		E4845CE41506721200B690ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4845CE61506721200B690ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4845CE81506721200B690ED /* RandersFlyveklub-Prefix.pch */ = {isa = PBXFileReference; path = "RandersFlyveklub-Prefix.pch"; sourceTree = "<group>"; };
+		E4845CE91506721200B690ED /* rfkAppDelegate.h */ = {isa = PBXFileReference; path = rfkAppDelegate.h; sourceTree = "<group>"; };
+		E4845CEA1506721200B690ED /* rfkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rfkAppDelegate.m; sourceTree = "<group>"; };
+		E4845CED1506721200B690ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E4845CEF1506721200B690ED /* rfkMasterViewController.h */ = {isa = PBXFileReference; path = rfkMasterViewController.h; sourceTree = "<group>"; };
+		E4845CF01506721200B690ED /* rfkMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rfkMasterViewController.m; sourceTree = "<group>"; };
+		E4845CF21506721200B690ED /* rfkDetailViewController.h */ = {isa = PBXFileReference; path = rfkDetailViewController.h; sourceTree = "<group>"; };
+		E4845CF31506721200B690ED /* rfkDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rfkDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4845CD31506721200B690ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4845CDB1506721200B690ED /* UIKit.framework in Frameworks */,
+				E4845CDD1506721200B690ED /* Foundation.framework in Frameworks */,
+				E4845CDF1506721200B690ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4845CCB1506721200B690ED = {
+			isa = PBXGroup;
+			children = (
+				E4845CE01506721200B690ED /* RandersFlyveklub */,
+				E4845CD91506721200B690ED /* Frameworks */,
+				E4845CD71506721200B690ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4845CD71506721200B690ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4845CD61506721200B690ED /* RandersFlyveklub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4845CD91506721200B690ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4845CDA1506721200B690ED /* UIKit.framework */,
+				E4845CDC1506721200B690ED /* Foundation.framework */,
+				E4845CDE1506721200B690ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4845CE01506721200B690ED /* RandersFlyveklub */ = {
+			isa = PBXGroup;
+			children = (
+				E4845CE91506721200B690ED /* rfkAppDelegate.h */,
+				E4845CEA1506721200B690ED /* rfkAppDelegate.m */,
+				E4845CEC1506721200B690ED /* MainStoryboard.storyboard */,
+				E4845CEF1506721200B690ED /* rfkMasterViewController.h */,
+				E4845CF01506721200B690ED /* rfkMasterViewController.m */,
+				E4845CF21506721200B690ED /* rfkDetailViewController.h */,
+				E4845CF31506721200B690ED /* rfkDetailViewController.m */,
+				E4845CE11506721200B690ED /* Supporting Files */,
+			);
+			path = RandersFlyveklub;
+			sourceTree = "<group>";
+		};
+		E4845CE11506721200B690ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4845CE21506721200B690ED /* RandersFlyveklub-Info.plist */,
+				E4845CE31506721200B690ED /* InfoPlist.strings */,
+				E4845CE61506721200B690ED /* main.m */,
+				E4845CE81506721200B690ED /* RandersFlyveklub-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4845CD51506721200B690ED /* RandersFlyveklub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4845CF71506721200B690ED /* Build configuration list for PBXNativeTarget "RandersFlyveklub" */;
+			buildPhases = (
+				E4845CD21506721200B690ED /* Sources */,
+				E4845CD31506721200B690ED /* Frameworks */,
+				E4845CD41506721200B690ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RandersFlyveklub;
+			productName = RandersFlyveklub;
+			productReference = E4845CD61506721200B690ED /* RandersFlyveklub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4845CCD1506721200B690ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E4845CD01506721200B690ED /* Build configuration list for PBXProject "RandersFlyveklub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4845CCB1506721200B690ED;
+			productRefGroup = E4845CD71506721200B690ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4845CD51506721200B690ED /* RandersFlyveklub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4845CD41506721200B690ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4845CE51506721200B690ED /* InfoPlist.strings in Resources */,
+				E4845CEE1506721200B690ED /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4845CD21506721200B690ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4845CE71506721200B690ED /* main.m in Sources */,
+				E4845CEB1506721200B690ED /* rfkAppDelegate.m in Sources */,
+				E4845CF11506721200B690ED /* rfkMasterViewController.m in Sources */,
+				E4845CF41506721200B690ED /* rfkDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4845CE31506721200B690ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4845CE41506721200B690ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4845CEC1506721200B690ED /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4845CED1506721200B690ED /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4845CF51506721200B690ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E4845CF61506721200B690ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4845CF81506721200B690ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RandersFlyveklub/RandersFlyveklub-Prefix.pch";
+				INFOPLIST_FILE = "RandersFlyveklub/RandersFlyveklub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4845CF91506721200B690ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RandersFlyveklub/RandersFlyveklub-Prefix.pch";
+				INFOPLIST_FILE = "RandersFlyveklub/RandersFlyveklub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4845CD01506721200B690ED /* Build configuration list for PBXProject "RandersFlyveklub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4845CF51506721200B690ED /* Debug */,
+				E4845CF61506721200B690ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4845CF71506721200B690ED /* Build configuration list for PBXNativeTarget "RandersFlyveklub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4845CF81506721200B690ED /* Debug */,
+				E4845CF91506721200B690ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4845CCD1506721200B690ED /* Project object */;
+}
