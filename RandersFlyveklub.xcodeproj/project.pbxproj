@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E464EA85151201CD008E23AF /* Contacts.m in Sources */ = {isa = PBXBuildFile; fileRef = E464EA84151201CD008E23AF /* Contacts.m */; };
+		E464EA88151201DF008E23AF /* DBDataControllerContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = E464EA87151201DF008E23AF /* DBDataControllerContacts.m */; };
+		E464EA8B15120436008E23AF /* Contact.rdb in Resources */ = {isa = PBXBuildFile; fileRef = E464EA8A15120436008E23AF /* Contact.rdb */; };
+		E464EA9615122E52008E23AF /* rfkViewControllerHome.m in Sources */ = {isa = PBXBuildFile; fileRef = E464EA9515122E52008E23AF /* rfkViewControllerHome.m */; };
+		E474E2AC151112CF00D43678 /* calc_background.png in Resources */ = {isa = PBXBuildFile; fileRef = E474E2AB151112CF00D43678 /* calc_background.png */; };
+		E474E2AF1511162700D43678 /* calc_background2.png in Resources */ = {isa = PBXBuildFile; fileRef = E474E2AE1511162700D43678 /* calc_background2.png */; };
+		E474E2B115111FE000D43678 /* contactcard_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E474E2B015111FE000D43678 /* contactcard_1.png */; };
+		E475F431150A20D900C74182 /* rfkMasterViewControllerHome.m in Sources */ = {isa = PBXBuildFile; fileRef = E475F430150A20D900C74182 /* rfkMasterViewControllerHome.m */; };
+		E475F434150A211500C74182 /* rfkDetailViewControllerHome.m in Sources */ = {isa = PBXBuildFile; fileRef = E475F433150A211500C74182 /* rfkDetailViewControllerHome.m */; };
+		E475F437150A235500C74182 /* rfkViewControllerMap.m in Sources */ = {isa = PBXBuildFile; fileRef = E475F436150A235500C74182 /* rfkViewControllerMap.m */; };
+		E475F43A150A257300C74182 /* rfkMasterViewControllerContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = E475F439150A257300C74182 /* rfkMasterViewControllerContacts.m */; };
+		E475F43D150A259400C74182 /* rfkDetailViewControllerContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = E475F43C150A259400C74182 /* rfkDetailViewControllerContacts.m */; };
+		E475F440150A275700C74182 /* rfkViewControllerWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = E475F43F150A275700C74182 /* rfkViewControllerWeb.m */; };
+		E47B78E3151241360038A3F3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47B78E2151241360038A3F3 /* MessageUI.framework */; };
+		E47B78E9151244E90038A3F3 /* 28-star.png in Resources */ = {isa = PBXBuildFile; fileRef = E47B78E5151244E90038A3F3 /* 28-star.png */; };
+		E47B78EA151244E90038A3F3 /* 38-airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = E47B78E6151244E90038A3F3 /* 38-airplane.png */; };
+		E47B78EB151244E90038A3F3 /* 123-id-card.png in Resources */ = {isa = PBXBuildFile; fileRef = E47B78E7151244E90038A3F3 /* 123-id-card.png */; };
+		E47B78EC151244E90038A3F3 /* 161-calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = E47B78E8151244E90038A3F3 /* 161-calculator.png */; };
+		E47B78F2151246A30038A3F3 /* 06-magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = E47B78ED151246A30038A3F3 /* 06-magnify.png */; };
+		E47B78F3151246A30038A3F3 /* 07-map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = E47B78EE151246A30038A3F3 /* 07-map-marker.png */; };
+		E47B78F4151246A30038A3F3 /* 18-envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = E47B78EF151246A30038A3F3 /* 18-envelope.png */; };
+		E47B78F5151246A30038A3F3 /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = E47B78F0151246A30038A3F3 /* 19-gear.png */; };
+		E47B78F6151246A30038A3F3 /* 25-weather.png in Resources */ = {isa = PBXBuildFile; fileRef = E47B78F1151246A30038A3F3 /* 25-weather.png */; };
+		E47E39D6150D2F2700E5E56F /* rfkViewControllerCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = E47E39D5150D2F2700E5E56F /* rfkViewControllerCalc.m */; };
+		E483C9DA1510A9640096DA90 /* DBDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E483C9D91510A9640096DA90 /* DBDataController.m */; };
+		E483C9DD1510A9740096DA90 /* airfields.rdb in Resources */ = {isa = PBXBuildFile; fileRef = E483C9DB1510A9740096DA90 /* airfields.rdb */; };
+		E483C9DE1510A9740096DA90 /* ContactDatabase.sql in Resources */ = {isa = PBXBuildFile; fileRef = E483C9DC1510A9740096DA90 /* ContactDatabase.sql */; };
+		E483C9E11510A9810096DA90 /* Airfield.m in Sources */ = {isa = PBXBuildFile; fileRef = E483C9E01510A9810096DA90 /* Airfield.m */; };
+		E483C9E31510B58C0096DA90 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E483C9E21510B58C0096DA90 /* libsqlite3.0.dylib */; };
 		E4845CDB1506721200B690ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4845CDA1506721200B690ED /* UIKit.framework */; };
 		E4845CDD1506721200B690ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4845CDC1506721200B690ED /* Foundation.framework */; };
 		E4845CDF1506721200B690ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4845CDE1506721200B690ED /* CoreGraphics.framework */; };
@@ -14,26 +43,73 @@
 		E4845CE71506721200B690ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4845CE61506721200B690ED /* main.m */; };
 		E4845CEB1506721200B690ED /* rfkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4845CEA1506721200B690ED /* rfkAppDelegate.m */; };
 		E4845CEE1506721200B690ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4845CEC1506721200B690ED /* MainStoryboard.storyboard */; };
-		E4845CF11506721200B690ED /* rfkMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4845CF01506721200B690ED /* rfkMasterViewController.m */; };
-		E4845CF41506721200B690ED /* rfkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4845CF31506721200B690ED /* rfkDetailViewController.m */; };
+		E4845D02150684AE00B690ED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4845D01150684AE00B690ED /* MapKit.framework */; };
+		E4845D0815069B0600B690ED /* tabbar_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E4845D0715069B0600B690ED /* tabbar_white.png */; };
+		E4845D0A15069B1200B690ED /* tabbar_red.png in Resources */ = {isa = PBXBuildFile; fileRef = E4845D0915069B1200B690ED /* tabbar_red.png */; };
+		E48727311513201F00D14E38 /* DSC00645.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E48727301513201F00D14E38 /* DSC00645.jpg */; };
+		E48727341513222A00D14E38 /* PICT0116.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E48727331513222A00D14E38 /* PICT0116.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E464EA82151201C5008E23AF /* Contacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contacts.h; sourceTree = "<group>"; };
+		E464EA84151201CD008E23AF /* Contacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contacts.m; sourceTree = "<group>"; };
+		E464EA86151201D9008E23AF /* DBDataControllerContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBDataControllerContacts.h; sourceTree = "<group>"; };
+		E464EA87151201DF008E23AF /* DBDataControllerContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBDataControllerContacts.m; sourceTree = "<group>"; };
+		E464EA89151201E9008E23AF /* DataControllerDelegateContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataControllerDelegateContacts.h; sourceTree = "<group>"; };
+		E464EA8A15120436008E23AF /* Contact.rdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Contact.rdb; sourceTree = "<group>"; };
+		E464EA9415122E46008E23AF /* rfkViewControllerHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rfkViewControllerHome.h; sourceTree = "<group>"; };
+		E464EA9515122E52008E23AF /* rfkViewControllerHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rfkViewControllerHome.m; sourceTree = "<group>"; };
+		E474E2AB151112CF00D43678 /* calc_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calc_background.png; sourceTree = "<group>"; };
+		E474E2AE1511162700D43678 /* calc_background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calc_background2.png; sourceTree = "<group>"; };
+		E474E2B015111FE000D43678 /* contactcard_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contactcard_1.png; sourceTree = "<group>"; };
+		E475F42F150A20CB00C74182 /* rfkMasterViewControllerHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rfkMasterViewControllerHome.h; sourceTree = "<group>"; };
+		E475F430150A20D900C74182 /* rfkMasterViewControllerHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rfkMasterViewControllerHome.m; sourceTree = "<group>"; };
+		E475F432150A210B00C74182 /* rfkDetailViewControllerHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rfkDetailViewControllerHome.h; sourceTree = "<group>"; };
+		E475F433150A211500C74182 /* rfkDetailViewControllerHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rfkDetailViewControllerHome.m; sourceTree = "<group>"; };
+		E475F435150A234900C74182 /* rfkViewControllerMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rfkViewControllerMap.h; sourceTree = "<group>"; };
+		E475F436150A235500C74182 /* rfkViewControllerMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rfkViewControllerMap.m; sourceTree = "<group>"; };
+		E475F438150A256900C74182 /* rfkMasterViewControllerContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rfkMasterViewControllerContacts.h; sourceTree = "<group>"; };
+		E475F439150A257300C74182 /* rfkMasterViewControllerContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rfkMasterViewControllerContacts.m; sourceTree = "<group>"; };
+		E475F43B150A258800C74182 /* rfkDetailViewControllerContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rfkDetailViewControllerContacts.h; sourceTree = "<group>"; };
+		E475F43C150A259400C74182 /* rfkDetailViewControllerContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rfkDetailViewControllerContacts.m; sourceTree = "<group>"; };
+		E475F43E150A274C00C74182 /* rfkViewControllerWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rfkViewControllerWeb.h; sourceTree = "<group>"; };
+		E475F43F150A275700C74182 /* rfkViewControllerWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rfkViewControllerWeb.m; sourceTree = "<group>"; };
+		E47B78E2151241360038A3F3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E47B78E5151244E90038A3F3 /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-star.png"; sourceTree = "<group>"; };
+		E47B78E6151244E90038A3F3 /* 38-airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "38-airplane.png"; sourceTree = "<group>"; };
+		E47B78E7151244E90038A3F3 /* 123-id-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "123-id-card.png"; sourceTree = "<group>"; };
+		E47B78E8151244E90038A3F3 /* 161-calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "161-calculator.png"; sourceTree = "<group>"; };
+		E47B78ED151246A30038A3F3 /* 06-magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06-magnify.png"; sourceTree = "<group>"; };
+		E47B78EE151246A30038A3F3 /* 07-map-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "07-map-marker.png"; sourceTree = "<group>"; };
+		E47B78EF151246A30038A3F3 /* 18-envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "18-envelope.png"; sourceTree = "<group>"; };
+		E47B78F0151246A30038A3F3 /* 19-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-gear.png"; sourceTree = "<group>"; };
+		E47B78F1151246A30038A3F3 /* 25-weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "25-weather.png"; sourceTree = "<group>"; };
+		E47E39D3150D2F1900E5E56F /* rfkViewControllerCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rfkViewControllerCalc.h; sourceTree = "<group>"; };
+		E47E39D5150D2F2700E5E56F /* rfkViewControllerCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rfkViewControllerCalc.m; sourceTree = "<group>"; };
+		E483C9D71510A9640096DA90 /* DataControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataControllerDelegate.h; sourceTree = "<group>"; };
+		E483C9D81510A9640096DA90 /* DBDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBDataController.h; sourceTree = "<group>"; };
+		E483C9D91510A9640096DA90 /* DBDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBDataController.m; sourceTree = "<group>"; };
+		E483C9DB1510A9740096DA90 /* airfields.rdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = airfields.rdb; sourceTree = "<group>"; };
+		E483C9DC1510A9740096DA90 /* ContactDatabase.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContactDatabase.sql; sourceTree = "<group>"; };
+		E483C9DF1510A9810096DA90 /* Airfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Airfield.h; sourceTree = "<group>"; };
+		E483C9E01510A9810096DA90 /* Airfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Airfield.m; sourceTree = "<group>"; };
+		E483C9E21510B58C0096DA90 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		E4845CD61506721200B690ED /* RandersFlyveklub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandersFlyveklub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4845CDA1506721200B690ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E4845CDC1506721200B690ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E4845CDE1506721200B690ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E4845CE21506721200B690ED /* RandersFlyveklub-Info.plist */ = {isa = PBXFileReference; path = "RandersFlyveklub-Info.plist"; sourceTree = "<group>"; };
+		E4845CE21506721200B690ED /* RandersFlyveklub-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RandersFlyveklub-Info.plist"; sourceTree = "<group>"; };
 		E4845CE41506721200B690ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E4845CE61506721200B690ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E4845CE81506721200B690ED /* RandersFlyveklub-Prefix.pch */ = {isa = PBXFileReference; path = "RandersFlyveklub-Prefix.pch"; sourceTree = "<group>"; };
-		E4845CE91506721200B690ED /* rfkAppDelegate.h */ = {isa = PBXFileReference; path = rfkAppDelegate.h; sourceTree = "<group>"; };
+		E4845CE81506721200B690ED /* RandersFlyveklub-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandersFlyveklub-Prefix.pch"; sourceTree = "<group>"; };
+		E4845CE91506721200B690ED /* rfkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rfkAppDelegate.h; sourceTree = "<group>"; };
 		E4845CEA1506721200B690ED /* rfkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rfkAppDelegate.m; sourceTree = "<group>"; };
 		E4845CED1506721200B690ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		E4845CEF1506721200B690ED /* rfkMasterViewController.h */ = {isa = PBXFileReference; path = rfkMasterViewController.h; sourceTree = "<group>"; };
-		E4845CF01506721200B690ED /* rfkMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rfkMasterViewController.m; sourceTree = "<group>"; };
-		E4845CF21506721200B690ED /* rfkDetailViewController.h */ = {isa = PBXFileReference; path = rfkDetailViewController.h; sourceTree = "<group>"; };
-		E4845CF31506721200B690ED /* rfkDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rfkDetailViewController.m; sourceTree = "<group>"; };
+		E4845D01150684AE00B690ED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E4845D0715069B0600B690ED /* tabbar_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_white.png; sourceTree = "<group>"; };
+		E4845D0915069B1200B690ED /* tabbar_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_red.png; sourceTree = "<group>"; };
+		E48727301513201F00D14E38 /* DSC00645.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC00645.jpg; sourceTree = "<group>"; };
+		E48727331513222A00D14E38 /* PICT0116.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PICT0116.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +117,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47B78E3151241360038A3F3 /* MessageUI.framework in Frameworks */,
+				E483C9E31510B58C0096DA90 /* libsqlite3.0.dylib in Frameworks */,
+				E4845D02150684AE00B690ED /* MapKit.framework in Frameworks */,
 				E4845CDB1506721200B690ED /* UIKit.framework in Frameworks */,
 				E4845CDD1506721200B690ED /* Foundation.framework in Frameworks */,
 				E4845CDF1506721200B690ED /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +129,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E483C9D01510A7620096DA90 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E475F435150A234900C74182 /* rfkViewControllerMap.h */,
+				E475F436150A235500C74182 /* rfkViewControllerMap.m */,
+				E483C9D71510A9640096DA90 /* DataControllerDelegate.h */,
+				E483C9D81510A9640096DA90 /* DBDataController.h */,
+				E483C9D91510A9640096DA90 /* DBDataController.m */,
+				E483C9DF1510A9810096DA90 /* Airfield.h */,
+				E483C9E01510A9810096DA90 /* Airfield.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		E483C9D21510A7A70096DA90 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E464EA9415122E46008E23AF /* rfkViewControllerHome.h */,
+				E464EA9515122E52008E23AF /* rfkViewControllerHome.m */,
+				E475F42F150A20CB00C74182 /* rfkMasterViewControllerHome.h */,
+				E475F430150A20D900C74182 /* rfkMasterViewControllerHome.m */,
+				E475F432150A210B00C74182 /* rfkDetailViewControllerHome.h */,
+				E475F433150A211500C74182 /* rfkDetailViewControllerHome.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		E483C9D41510A7CC0096DA90 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				E475F438150A256900C74182 /* rfkMasterViewControllerContacts.h */,
+				E475F439150A257300C74182 /* rfkMasterViewControllerContacts.m */,
+				E475F43B150A258800C74182 /* rfkDetailViewControllerContacts.h */,
+				E475F43C150A259400C74182 /* rfkDetailViewControllerContacts.m */,
+				E464EA89151201E9008E23AF /* DataControllerDelegateContacts.h */,
+				E464EA86151201D9008E23AF /* DBDataControllerContacts.h */,
+				E464EA87151201DF008E23AF /* DBDataControllerContacts.m */,
+				E464EA82151201C5008E23AF /* Contacts.h */,
+				E464EA84151201CD008E23AF /* Contacts.m */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		E483C9D51510A7DB0096DA90 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				E475F43E150A274C00C74182 /* rfkViewControllerWeb.h */,
+				E475F43F150A275700C74182 /* rfkViewControllerWeb.m */,
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
+		E483C9D61510A7E70096DA90 /* Calc */ = {
+			isa = PBXGroup;
+			children = (
+				E47E39D3150D2F1900E5E56F /* rfkViewControllerCalc.h */,
+				E47E39D5150D2F2700E5E56F /* rfkViewControllerCalc.m */,
+			);
+			name = Calc;
+			sourceTree = "<group>";
+		};
 		E4845CCB1506721200B690ED = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +210,9 @@
 		E4845CD91506721200B690ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E483C9E21510B58C0096DA90 /* libsqlite3.0.dylib */,
+				E47B78E2151241360038A3F3 /* MessageUI.framework */,
+				E4845D01150684AE00B690ED /* MapKit.framework */,
 				E4845CDA1506721200B690ED /* UIKit.framework */,
 				E4845CDC1506721200B690ED /* Foundation.framework */,
 				E4845CDE1506721200B690ED /* CoreGraphics.framework */,
@@ -80,13 +223,14 @@
 		E4845CE01506721200B690ED /* RandersFlyveklub */ = {
 			isa = PBXGroup;
 			children = (
-				E4845CE91506721200B690ED /* rfkAppDelegate.h */,
-				E4845CEA1506721200B690ED /* rfkAppDelegate.m */,
 				E4845CEC1506721200B690ED /* MainStoryboard.storyboard */,
-				E4845CEF1506721200B690ED /* rfkMasterViewController.h */,
-				E4845CF01506721200B690ED /* rfkMasterViewController.m */,
-				E4845CF21506721200B690ED /* rfkDetailViewController.h */,
-				E4845CF31506721200B690ED /* rfkDetailViewController.m */,
+				E4845CEA1506721200B690ED /* rfkAppDelegate.m */,
+				E4845CE91506721200B690ED /* rfkAppDelegate.h */,
+				E483C9D21510A7A70096DA90 /* Home */,
+				E483C9D41510A7CC0096DA90 /* Contacts */,
+				E483C9D01510A7620096DA90 /* Map */,
+				E483C9D51510A7DB0096DA90 /* Web */,
+				E483C9D61510A7E70096DA90 /* Calc */,
 				E4845CE11506721200B690ED /* Supporting Files */,
 			);
 			path = RandersFlyveklub;
@@ -95,10 +239,29 @@
 		E4845CE11506721200B690ED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E48727301513201F00D14E38 /* DSC00645.jpg */,
+				E48727331513222A00D14E38 /* PICT0116.JPG */,
+				E474E2AB151112CF00D43678 /* calc_background.png */,
+				E474E2AE1511162700D43678 /* calc_background2.png */,
+				E474E2B015111FE000D43678 /* contactcard_1.png */,
 				E4845CE21506721200B690ED /* RandersFlyveklub-Info.plist */,
+				E464EA8A15120436008E23AF /* Contact.rdb */,
+				E483C9DB1510A9740096DA90 /* airfields.rdb */,
+				E483C9DC1510A9740096DA90 /* ContactDatabase.sql */,
 				E4845CE31506721200B690ED /* InfoPlist.strings */,
 				E4845CE61506721200B690ED /* main.m */,
 				E4845CE81506721200B690ED /* RandersFlyveklub-Prefix.pch */,
+				E4845D0715069B0600B690ED /* tabbar_white.png */,
+				E4845D0915069B1200B690ED /* tabbar_red.png */,
+				E47B78E5151244E90038A3F3 /* 28-star.png */,
+				E47B78E6151244E90038A3F3 /* 38-airplane.png */,
+				E47B78E7151244E90038A3F3 /* 123-id-card.png */,
+				E47B78E8151244E90038A3F3 /* 161-calculator.png */,
+				E47B78ED151246A30038A3F3 /* 06-magnify.png */,
+				E47B78EE151246A30038A3F3 /* 07-map-marker.png */,
+				E47B78EF151246A30038A3F3 /* 18-envelope.png */,
+				E47B78F0151246A30038A3F3 /* 19-gear.png */,
+				E47B78F1151246A30038A3F3 /* 25-weather.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,6 +318,25 @@
 			files = (
 				E4845CE51506721200B690ED /* InfoPlist.strings in Resources */,
 				E4845CEE1506721200B690ED /* MainStoryboard.storyboard in Resources */,
+				E4845D0815069B0600B690ED /* tabbar_white.png in Resources */,
+				E4845D0A15069B1200B690ED /* tabbar_red.png in Resources */,
+				E483C9DD1510A9740096DA90 /* airfields.rdb in Resources */,
+				E483C9DE1510A9740096DA90 /* ContactDatabase.sql in Resources */,
+				E474E2AC151112CF00D43678 /* calc_background.png in Resources */,
+				E474E2AF1511162700D43678 /* calc_background2.png in Resources */,
+				E474E2B115111FE000D43678 /* contactcard_1.png in Resources */,
+				E464EA8B15120436008E23AF /* Contact.rdb in Resources */,
+				E47B78E9151244E90038A3F3 /* 28-star.png in Resources */,
+				E47B78EA151244E90038A3F3 /* 38-airplane.png in Resources */,
+				E47B78EB151244E90038A3F3 /* 123-id-card.png in Resources */,
+				E47B78EC151244E90038A3F3 /* 161-calculator.png in Resources */,
+				E47B78F2151246A30038A3F3 /* 06-magnify.png in Resources */,
+				E47B78F3151246A30038A3F3 /* 07-map-marker.png in Resources */,
+				E47B78F4151246A30038A3F3 /* 18-envelope.png in Resources */,
+				E47B78F5151246A30038A3F3 /* 19-gear.png in Resources */,
+				E47B78F6151246A30038A3F3 /* 25-weather.png in Resources */,
+				E48727311513201F00D14E38 /* DSC00645.jpg in Resources */,
+				E48727341513222A00D14E38 /* PICT0116.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,8 +349,18 @@
 			files = (
 				E4845CE71506721200B690ED /* main.m in Sources */,
 				E4845CEB1506721200B690ED /* rfkAppDelegate.m in Sources */,
-				E4845CF11506721200B690ED /* rfkMasterViewController.m in Sources */,
-				E4845CF41506721200B690ED /* rfkDetailViewController.m in Sources */,
+				E475F431150A20D900C74182 /* rfkMasterViewControllerHome.m in Sources */,
+				E475F434150A211500C74182 /* rfkDetailViewControllerHome.m in Sources */,
+				E475F437150A235500C74182 /* rfkViewControllerMap.m in Sources */,
+				E475F43A150A257300C74182 /* rfkMasterViewControllerContacts.m in Sources */,
+				E475F43D150A259400C74182 /* rfkDetailViewControllerContacts.m in Sources */,
+				E475F440150A275700C74182 /* rfkViewControllerWeb.m in Sources */,
+				E47E39D6150D2F2700E5E56F /* rfkViewControllerCalc.m in Sources */,
+				E483C9DA1510A9640096DA90 /* DBDataController.m in Sources */,
+				E483C9E11510A9810096DA90 /* Airfield.m in Sources */,
+				E464EA85151201CD008E23AF /* Contacts.m in Sources */,
+				E464EA88151201DF008E23AF /* DBDataControllerContacts.m in Sources */,
+				E464EA9615122E52008E23AF /* rfkViewControllerHome.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +474,7 @@
 				E4845CF91506721200B690ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
