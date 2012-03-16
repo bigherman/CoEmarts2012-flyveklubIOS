@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-@class rfkDetailViewController;
+
+@class rfkDetailViewControllerHome;
 
 @interface rfkMasterViewControllerHome : UITableViewController
 
-@property (strong, nonatomic) rfkDetailViewController *detailViewController;
+@property (strong, nonatomic) rfkDetailViewControllerHome *detailViewController;
+
+@property (strong, nonatomic) NSArray *items;
 
 @end
